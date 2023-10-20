@@ -1,0 +1,42 @@
+.dishes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dishes #headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  width: 100%;
+  background-color: #8fb348;
+}
+.dishes #headline h1 {
+  font-family: "More Sugar", sans-serif;
+  color: white;
+}
+.dishes .row {
+  margin: 3vh 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.dishes .row .card #img {
+  padding: 15px;
+}
+.dishes .row .card #img .card-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.dishes .row .card .card-body .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dishes .row .card .card-body .container .btn {
+  background-color: #8fb348;
+  border: none;
+  color: white;
+}/*# sourceMappingURL=menu.component.css.map */

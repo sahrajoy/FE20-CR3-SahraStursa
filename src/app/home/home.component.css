@@ -1,0 +1,51 @@
+#hero {
+  height: 500px;
+  background-image: url("../../assets/banner.jpg");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero #overlay {
+  position: absolute;
+  background-color: white;
+  opacity: 0.9;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  color: #67812e;
+  width: 30%;
+  min-width: 350px;
+}
+#hero #overlay h1 {
+  font-family: "More Sugar", sans-serif;
+}
+#hero #overlay #btns {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#hero #overlay #btns .btn {
+  width: 13vh;
+  background-color: #8fb348;
+  border: none;
+  border-radius: 5px;
+}
+
+#specials {
+  color: white;
+  background-color: #c0cfa2;
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#specials h2 {
+  font-family: "More Sugar", sans-serif;
+}/*# sourceMappingURL=home.component.css.map */

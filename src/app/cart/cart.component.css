@@ -1,0 +1,76 @@
+.container .flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .flex-container #order {
+  flex: 8;
+  border: 1px solid #8fb348;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.container .flex-container #order .card-header {
+  font-size: large;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px;
+  width: 100%;
+  background-color: #8fb348;
+}
+.container .flex-container #order #order-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.container .flex-container #order #order-info img {
+  flex: 3;
+  height: 20vh;
+  padding: 5px;
+}
+.container .flex-container #order #order-info div {
+  flex: 6;
+  margin: 5px;
+}
+.container .flex-container #order #order-info div p {
+  margin: 0;
+}
+.container .flex-container #order #order-info p {
+  flex: 3;
+  padding: 5px;
+}
+.container .flex-container #summary {
+  flex: 4;
+  border: 1px solid #c0cfa2;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.container .flex-container #summary .card-header {
+  font-size: large;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px;
+  width: 100%;
+  background-color: #8fb348;
+}
+.order-form {
+  margin: 20px 0;
+}
+.order-form h1 {
+  font-family: "More Sugar", sans-serif;
+  color: #67812e;
+}
+.order-form input {
+  border: 1px solid #8fb348;
+  border-radius: 5px;
+  width: 100%;
+}
+.order-form p {
+  margin: 3px;
+}
+.order-form button {
+  width: 13vh;
+  background-color: #8fb348;
+  border: none;
+  margin: 3px;
+  border-radius: 5px;
+}/*# sourceMappingURL=cart.component.css.map */

@@ -1,0 +1,25 @@
+#restaurant-description {
+  padding: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#restaurant-description h2 {
+  font-family: "More Sugar", sans-serif;
+  color: #67812e;
+}
+#restaurant-description #content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#restaurant-description #content #img {
+  width: 35vh;
+  border-radius: 50vh;
+}
+#restaurant-description #content p {
+  padding: 3vh 10vh;
+  margin: 0;
+}/*# sourceMappingURL=about.component.css.map */

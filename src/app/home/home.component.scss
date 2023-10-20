@@ -1,0 +1,58 @@
+@import '../../variables';
+
+#hero {
+    height: 500px;
+    background-image: url("../../assets/banner.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #overlay {
+        position: absolute;
+        background-color: white;
+        opacity: 0.9;
+        padding: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px;
+        color: $color-headline;
+        width: 30%;
+        min-width: 350px;
+
+        h1 {
+            font-family: $font-family-headline;
+        }
+
+        #btns {
+            min-width: 300px;
+            display: flex;
+            justify-content: space-evenly;
+
+            .btn {
+                width: 13vh;
+                background-color: $background-color-footer;
+                border: none;
+                border-radius: $border-radius;
+            }
+        }
+    }
+}
+
+#specials {
+    color: white;
+    background-color: $background-color;
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        font-family: $font-family-headline;
+    }
+}
