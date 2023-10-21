@@ -1,1 +1,7 @@
-<p>details works!</p>
+<div id="dish">
+    <h1>{{dish.name}}</h1>
+    <img src="{{dish.img}}" alt="">
+    <p class="fs-5">€ {{dish.price}}</p>
+    <p class="fs-5" *ngIf="dish">{{dish.description}}</p>
+    <button (click)="addToCart()" class="btn btn-success">Add to cart</button>
+</div>

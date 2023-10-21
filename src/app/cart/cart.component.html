@@ -21,14 +21,15 @@
             <div>
                 <div class="row row-cols-2 mx-2 mt-3 mb-3">
                     <div class="col-8">Products</div>
-                    <div class="col-4">€{{products}}</div>
+                    <div class="col-4">€ {{products | number:'1.2-2' }}</div>
                     <div class="col-8">Service</div>
-                    <div class="col-4">€{{service}}</div>
+                    <div class="col-4">€ {{service | number:'1.2-2' }}</div>
                     <div class="col-8">Discount -15%</div>
-                    <div class="col-4">€{{discount}}</div>
-                    <hr><hr/>
+                    <div class="col-4">€ {{discount | number:'1.2-2' }}</div>
+                    <hr>
+                    <hr />
                     <div class="col-8">Total amount (including VAT)</div>
-                    <div class="col-4">€{{total}}</div>
+                    <div class="col-4">€ {{total | number:'1.2-2' }}</div>
                 </div>
             </div>
         </div>

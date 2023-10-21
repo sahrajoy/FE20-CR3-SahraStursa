@@ -1,1 +1,35 @@
 @import '../../variables';
+
+#dish {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        padding: 10px;
+        font-family: $font-family-headline;
+        color: $background-color-footer;
+    }
+
+    img {
+        padding: 10px;
+        width: 20%;
+        border-radius: 50vh;
+        height: 380px;
+        overflow: hidden;
+
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 10px;
+        background-color: $background-color-footer;
+        border: none;
+        color: white;
+    }
+}

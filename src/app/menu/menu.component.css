@@ -24,6 +24,9 @@
 }
 .dishes .row .card #img {
   padding: 15px;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 .dishes .row .card #img .card-img {
   width: 100%;

@@ -13,9 +13,9 @@ import Swal from 'sweetalert2';
 export class MenuComponent {
   dishArr: IDishes[] = dish;
 
-  constructor(private route: ActivatedRoute, private CS: CartService){}
+  constructor(private route: ActivatedRoute, private CS: CartService) { }
 
-  addToCart(obj: IDishes){
+  addToCart(obj: IDishes) {
     Swal.fire({
       position: 'top-end',
       icon: 'success',
@@ -23,6 +23,6 @@ export class MenuComponent {
       showConfirmButton: false,
       timer: 1500
     })
-    this.CS.addToCart(obj);    
+    this.CS.addToCart(obj);
   }
 }

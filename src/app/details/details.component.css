@@ -1,1 +1,28 @@
-/*# sourceMappingURL=details.component.css.map */
+#dish {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#dish h1 {
+  padding: 10px;
+  font-family: "More Sugar", sans-serif;
+  color: #8fb348;
+}
+#dish img {
+  padding: 10px;
+  width: 20%;
+  border-radius: 50vh;
+  height: 380px;
+  overflow: hidden;
+}
+#dish p {
+  padding: 10px;
+}
+#dish .btn {
+  padding: 10px;
+  background-color: #8fb348;
+  border: none;
+  color: white;
+}/*# sourceMappingURL=details.component.css.map */
