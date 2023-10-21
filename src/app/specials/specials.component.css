@@ -1,0 +1,53 @@
+#specials {
+  color: white;
+  background-color: #c0cfa2;
+  padding-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#specials h2 {
+  font-family: "More Sugar", sans-serif;
+}
+
+.d-flex {
+  margin: 0;
+  flex: 4;
+  background-color: #c0cfa2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex #v-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 24px;
+}
+.d-flex #v-tab .nav-link {
+  color: white;
+  font-size: large;
+}
+.d-flex .tab-content .tab-pane {
+  background-color: white;
+  border-radius: 20px;
+}
+.d-flex .tab-content .tab-pane #content {
+  display: flex;
+  flex-direction: row;
+}
+.d-flex .tab-content .tab-pane #content div {
+  max-width: 300px;
+  padding: 10px;
+}
+.d-flex .tab-content .tab-pane #content div h3 {
+  font-family: "More Sugar", sans-serif;
+  color: #8fb348;
+}
+.d-flex .tab-content .tab-pane #content img {
+  height: 30vh;
+  border-radius: 20px;
+}/*# sourceMappingURL=specials.component.css.map */

@@ -1,0 +1,65 @@
+@import '../../variables';
+
+#specials {
+    color: white;
+    background-color: $background-color;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        font-family: $font-family-headline;
+    }
+}
+
+.d-flex {
+    margin: 0;
+    flex: 4;
+    background-color: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #v-tab {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 24px;
+
+        .nav-link {
+            color: white;
+            font-size: large;
+        }
+    }
+
+    .tab-content {
+        .tab-pane {
+            background-color: white;
+            border-radius: 20px;
+
+            #content {
+                display: flex;
+                flex-direction: row;
+
+                div {
+                    max-width: 300px;
+                    padding: 10px;
+
+                    h3 {
+                        font-family: $font-family-headline;
+                        color: $background-color-footer;
+                    }
+                }
+
+                img {
+                    height: 30vh;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}

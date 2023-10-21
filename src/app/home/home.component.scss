@@ -43,16 +43,3 @@
     }
 }
 
-#specials {
-    color: white;
-    background-color: $background-color;
-    padding: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    h2 {
-        font-family: $font-family-headline;
-    }
-}
